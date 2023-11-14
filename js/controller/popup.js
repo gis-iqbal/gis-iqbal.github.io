@@ -18,7 +18,7 @@ export function getTokenFromCookies(cookieName) {
   
   // Function to get the token from API and store it in cookies
   export function getTokenFromAPI() {
-    const tokenUrl = "https://us-central1-noted-slice-401902.cloudfunctions.net/gis5";
+    const tokenUrl = "https://us-central1-gisiqbal.cloudfunctions.net/gischp5";
     fetch(tokenUrl)
       .then(response => response.json())
       .then(tokenData => {
