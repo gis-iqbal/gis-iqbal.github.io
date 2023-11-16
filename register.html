@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,8 @@
     <meta name="msapplication-TileColor" content="#0ed3cf">
     <meta name="theme-color" content="#0ed3cf">
 
-    <meta property="og:image" content="https://tailwindcomponents.com/storage/799/temp75559.png?v=2023-10-27 02:50:19" />
+    <meta property="og:image"
+        content="https://tailwindcomponents.com/storage/799/temp75559.png?v=2023-10-27 02:50:19" />
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="640" />
     <meta property="og:image:type" content="image/png" />
@@ -26,59 +28,54 @@
     <meta name="twitter:site" content="@TwComponents" />
     <meta name="twitter:title" content="Sign Up Form by shubhamjainco" />
     <meta name="twitter:description" content="A Sign Up Form for Tailwind CCSS" />
-    <meta name="twitter:image" content="https://tailwindcomponents.com/storage/799/temp75559.png?v=2023-10-27 02:50:19" />
+    <meta name="twitter:image"
+        content="https://tailwindcomponents.com/storage/799/temp75559.png?v=2023-10-27 02:50:19" />
 
     <link rel="canonical" href="https://tailwindcomponents.com/component/sign-up-form" itemprop="URL">
-    
+
     <title>Sign Up Form by shubhamjainco. </title>
 
-            <link href="https://unpkg.com/tailwindcss@0.3.0/dist/tailwind.min.css" rel="stylesheet">
-    </head>
+    <link href="https://unpkg.com/tailwindcss@0.3.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <script type="module" src="./js/register.js"></script>
+</head>
+
 <body class="bg-gray-200">
     <div class="bg-grey-lighter min-h-screen flex flex-col">
-            <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
-                <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
-                    <h1 class="mb-8 text-3xl text-center">Sign up</h1>
-                    <input 
-                        type="text"
-                        class="block border border-grey-light w-full p-3 rounded mb-4"
-                        name="email"
-                        placeholder="Email" />
+        <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+            <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
+                <h1 class="mb-8 text-3xl text-center">Sign up</h1>
+                <form class="form-horizontal" id="form">
+                    <input id="username" class="block border border-grey-light w-full p-3 rounded mb-4" name="username"
+                        placeholder="username" />
 
-                    <input 
-                        type="password"
-                        class="block border border-grey-light w-full p-3 rounded mb-4"
-                        name="password"
+                    <input id="password" class="block border border-grey-light w-full p-3 rounded mb-4" name="password"
                         placeholder="Password" />
-                    <input 
-                        type="password"
-                        class="block border border-grey-light w-full p-3 rounded mb-4"
-                        name="confirm_password"
-                        placeholder="Confirm Password" />
 
-                    <button
-                        type="submit"
-                        class="w-full text-center py-3 rounded bg-blue-light text-white hover:bg-green-dark focus:outline-none my-1"
-                    >Create Account</button>
+                    <button type="submit"
+                        class="w-full text-center py-3 rounded bg-blue-light text-white hover:bg-green-dark focus:outline-none my-1">Create
+                        Account</button>
 
                     <div class="text-center text-sm text-grey-dark mt-4">
-                        By signing up, you agree to the 
+                        By signing up, you agree to the
                         <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
                             Terms of Service
-                        </a> and 
+                        </a> and
                         <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
                             Privacy Policy
                         </a>
                     </div>
-                </div>
+                </form>
+            </div>
 
-                <div class="text-grey-dark mt-6">
-                    Already have an account? 
-                    <a class="no-underline border-b border-blue text-blue" href="login.html">
-                        Log in
-                    </a>.
-                </div>
+            <div class="text-grey-dark mt-6">
+                Already have an account?
+                <a class="no-underline border-b border-blue text-blue" href="login.html">
+                    Log in
+                </a>.
             </div>
         </div>
+    </div>
 </body>
+
 </html>
